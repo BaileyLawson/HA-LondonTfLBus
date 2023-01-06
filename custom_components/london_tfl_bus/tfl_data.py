@@ -85,7 +85,7 @@ class TfLData:
                 'destination': get_destination(item),
                 'time': time_to_station(item, False, '{0}'),
                 'expected': item['expectedArrival'],
-                'type': 'Metros',
+                'type': 'Buses',
                 'groupofline': '',
                 'icon': 'mdi:bus',
             }
