@@ -1,7 +1,7 @@
 DOMAIN = 'london_tfl'
 
 DEFAULT_NAME = 'London TfL'
-DEFAULT_ICON = 'mdi:train'
+DEFAULT_ICON = 'mdi:bus'
 CONF_STOPS = 'stops'
 
 CONF_LINE = 'line'
@@ -19,7 +19,7 @@ LINE_IMAGES = {
     'tfl-rail': 'https://tfl.gov.uk/tfl/common/images/logos/TfL%20Rail/Roundel/TfLRailRoundel.jpg',  # noqa
 }
 
-TFL_LINES_URL = 'https://api.tfl.gov.uk/line/mode/tube,dlr,overground,cable-car,tram,river-tour,elizabeth-line,national-rail'  # noqa
+TFL_LINES_URL = 'https://api.tfl.gov.uk/line/mode/bus'  # noqa
 TFL_ARRIVALS_URL = 'https://api.tfl.gov.uk/line/{0}/arrivals/{1}?test={2}'
 TFL_STATIONS_URL = 'https://api.tfl.gov.uk/line/{0}/stoppoints'
 
