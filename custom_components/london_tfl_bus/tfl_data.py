@@ -77,9 +77,9 @@ class TfLData:
             departure = {
                 'time_to_station': time_to_station(item, False),
                 'platform': (
-                    item['lineId'] if 'lineId' in item else ''
+                    item['lineName'] if 'lineName' in item else ''
                 ),
-                'line': item['lineId'] if 'lineId' in item else '',
+                'line': item['lineName'] if 'lineName' in item else '',
                 'direction': 0,
                 'departure': item['expectedArrival'],
                 'destination': get_destination(item),
