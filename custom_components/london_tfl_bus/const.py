@@ -20,7 +20,7 @@ LINE_IMAGES = {
 }
 
 TFL_LINES_URL = 'https://api.tfl.gov.uk/line/mode/bus'  # noqa
-TFL_ARRIVALS_URL = 'https://api.tfl.gov.uk/line/{0}/arrivals/{1}?test={2}'
+TFL_ARRIVALS_URL = 'https://api.tfl.gov.uk/StopPoint/{1}/arrivals/'
 TFL_STATIONS_URL = 'https://api.tfl.gov.uk/line/{0}/stoppoints'
 
 SHORTEN_STATION_NAMES = ['Underground Station', 'DLR Station']
