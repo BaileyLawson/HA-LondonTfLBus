@@ -3,10 +3,10 @@
   "config_flow": true,
   "dependencies": [],
   "documentation": "https://github.com/morosanmihail/HA-LondonTfL",
-  "domain": "london_tfl",
+  "domain": "london_tfl_bus",
   "iot_class": "cloud_polling",
   "issue_tracker": "https://github.com/morosanmihail/HA-LondonTfL/issues",
-  "name": "London TfL",
+  "name": "London TfL Bus",
   "requirements": [],
   "version": "0.1.4"
 }
