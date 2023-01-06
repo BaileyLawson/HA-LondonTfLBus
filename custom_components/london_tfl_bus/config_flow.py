@@ -105,7 +105,7 @@ class LondonTfLConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
                 errors['base'] = 'request'
             result = json.loads(result)
             stations = {
-                item['stationNaptan']: item['commonName'] for item in result
+                item['id']: item['id'] for item in result
             }
         except OSError:
             _LOGGER.warning('Something broke.')
