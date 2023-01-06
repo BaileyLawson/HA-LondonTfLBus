@@ -1,5 +1,5 @@
 {
-  "name": "London TfL",
+  "name": "London TfL Bus",
   "country": "GB",
   "homeassistant": "2021.12.0",
   "render_readme": true
